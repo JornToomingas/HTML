@@ -19,15 +19,43 @@
     <code>&lt;h1&gt;Pealkiri&lt;/h1&gt;</code>
     </pre>
 </body>
-    
 <body>
     <h2>Tabel ja pildid</h2>
     <h3>Animeertiud gif</h3>
     <img src="Peanut Butter Dancing GIF.gif" alt="">
 
 
-    <h3>Loo samasugune kolmeveeruline tabel. Pildi laius 100px</h3>
+
+    
+    <h4>Loo samasugune kolmeveeruline tabel. Pildi laius 100px</h4>
+    <style>
+        table, th, td {
+            border-spacing: 10px;
+        }
+        img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
     <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Portugal</th>
+                <th>Island</th>
+            </tr>
+        </thead>
+
+        <tr>
+            <th></th>
+            <th>
+                <img src="portugal.jpg" alt="">
+            </th>
+            <th>
+                <img src="Iceland.png" alt="">
+            </th>
+        </tr>
+
         <tr>
             <td>Võidud</td>
             <td>15</td>
@@ -54,8 +82,5 @@
             <td>0</td>
         </tr>
     </table>
-
-
-    
 </body>
 </html>
