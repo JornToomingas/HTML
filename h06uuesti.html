@@ -6,6 +6,58 @@
     <title>Vormide loomine</title>
 </head>
 <body>
-    
+    <h1>Vormide loomine</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label>Kasutajanimi: </label><input name="kasutaja" type="text" placeholder="max pikkus 6" maxlength="6"><br></td>
+            </tr>
+            <tr>
+                <td></td><label>Kursus: </label><input name="kursus" type="text" placeholder="max pikkus 3" maxlength="3"><br></td>
+            </tr>
+            <tr>
+                <td><label>Osakonna number: </label></td>
+                <td><input type="number" value="1" min="1" max="5" step="1"> <br></td>
+            </tr>
+            <tr>
+                <td><label>Parool: </label><input name="parool" type="text" maxlength="6"><br></td>
+            </tr>
+            <tr>
+                <td><label for="Vali teenus">Vali teenus:</label></td>
+                <td>
+                    <select> id="teenus" name="teenus">
+                        <option value="pun">Odav 0,59€</option>
+                        <option value="sin">Kallis 1,19€</option>
+                        <option value="kol">Premium 2,49€</option>
+                    </select> <br> <br>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Roll:</label></td>
+                <td>
+                    <input type="radio" name="roll" value="Adm">Admin<br>
+                    <input type="radio" name="roll" value="Mod">Moderaator<br>
+                    <input type="radio" name="roll" value="Use" checked="yes">User<br>
+
+                </td>
+            </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </table>
+    </form>
 </body>
 </html>
