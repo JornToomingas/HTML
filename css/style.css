@@ -7,17 +7,40 @@
 .header {
     background-color: gray;
     text-align: left;
+    color: whitesmoke;
 }
 
 .items {
     background-color: black;
-    color: white;
+    color: whitesmoke;
     text-align: left;
     padding: 10px;
 }
 
-
 .footer {
+    background-color: black;
+    text-align: left;
     max-width: 900px;
     margin: auto;
+    padding: 10px;
+    color: whitesmoke;
 }
+
+
+/*links*/
+a:link {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  a:active {
+    color: whitesmoke;
+    text-decoration: none;
+  }
