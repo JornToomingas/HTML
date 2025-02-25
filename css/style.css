@@ -1,3 +1,9 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
 .header {
     background-color: gray;
     text-align: left;
@@ -10,3 +16,8 @@
     padding: 10px;
 }
 
+
+.footer {
+    max-width: 900px;
+    margin: auto;
+}
