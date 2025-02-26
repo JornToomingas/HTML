@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f3d9;
+    color: #504b38;
+    display: flex;
+    margin: 0;
+}
+
+.conatiner {
+    text-align: center;
+    background-color: #ebe5c2;
+    padding: 40px;
+    border-radius: 8px;
+}
