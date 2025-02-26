@@ -10,11 +10,27 @@ body {
     color: #504b38;
     display: flex;
     margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 
-.conatiner {
+.container {
     text-align: center;
     background-color: #ebe5c2;
     padding: 40px;
     border-radius: 8px;
+    max-width: 500px;
+}
+
+h1 {
+    color: #504B38;
+}
+
+.button {
+    background-color: #b9b28a;
+    color: #504B38;
+}
+
+.button:hover {
+    background-color: #b9b28a;
 }
